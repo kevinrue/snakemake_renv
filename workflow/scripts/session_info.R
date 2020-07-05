@@ -8,7 +8,7 @@ si_file <- snakemake@output[[1]]
 #
 # Manage R packages
 #
-renv::restore()
+renv::activate()
 library(sessioninfo)
 
 #
