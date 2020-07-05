@@ -16,3 +16,12 @@ rule session_info:
         "../envs/r.yaml"
     script:
         "../scripts/session_info.R"
+
+
+rule renv:
+    output:
+        "renv/activate.R"
+    conda:
+        "../envs/r.yaml"
+    script:
+        "../scripts/renv.R"

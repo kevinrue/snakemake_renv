@@ -8,9 +8,7 @@ ip_file <- snakemake@output[[1]]
 #
 # Manage R packages
 #
-renv::consent(provided = TRUE)
-renv::restore()
-library(sessioninfo)
+NA
 
 #
 # Main script
