@@ -39,7 +39,7 @@ Activate the conda environment:
 
 Initialise the R environment
 
-    snakemake_renv % snakemake --use-conda --cores 1 renv
+    snakemake --use-conda --cores 1 renv
 
 Test your configuration by performing a dry-run via
 
