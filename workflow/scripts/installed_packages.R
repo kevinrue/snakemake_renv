@@ -8,7 +8,7 @@ ip_file <- snakemake@output[[1]]
 #
 # Manage R packages
 #
-NA
+renv::restore()
 
 #
 # Main script
