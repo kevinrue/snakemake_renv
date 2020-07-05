@@ -12,6 +12,8 @@ rule all:
     input:
         # The first rule should define the default target files
         # Subsequent target rules can be specified below. They should start with all_*.
+        "results/tables/installed_packages.txt",
+        "results/tables/session_info.txt"
 
 
 include: "rules/common.smk"
